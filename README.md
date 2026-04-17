@@ -32,7 +32,8 @@ A **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about 
 ## Demo
 
 ### Chat Interface
-![Chat Demo](images/dashboard.png)
+
+![RAG Chatbot Demo](images/dashboard.png)
 
 ## Sample Interaction
 
