@@ -34,19 +34,16 @@ A **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about 
 ### Chat Interface
 ![Chat Demo](images/dashboard.png)
 
-### Sample Interaction
+## Sample Interaction
 
-**Question:** *"What is the main goal of the proposed mathematical model?"*
+### Question:
+**What are the two main aspects of SHA-512 that this article proposes to modify?**
 
-**Answer:** The main goal of the proposed mathematical model is to improve SHA-512 security without increasing complexity.
+### Answer:
+This article proposes to modify SHA-512 in two main aspects:
+1. The modification of original hash buffer values.
+2. The modification of additive constants \( K_2 \).
 
-**Retrieved pages:** 1, 19, 5
-
----
-
-**Question:** *"What are hash functions and why are they important?"*
-
-**Answer:** Hash functions do not need any key and protect data using a one-way function. They map an arbitrary size input into an output of fixed length hash values or message digest. Hash functions are important because they play roles in message authentication, integrity protection, digital signatures, and blockchain.
 
 ##  Tech Stack
 
