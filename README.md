@@ -68,17 +68,17 @@ Real-time Responses - Answers with page citations
 API Testing with Swagger UI
 
 ### Making a Query Request
-![Swagger UI Query](swagger%20ui_1.png)
+![Swagger UI Query](images/swagger%20ui_1.png)
 
 *Figure 2: Using Swagger UI to test the chat endpoint with the question "What is artificial intelligence".*
 
 ### Request Details
-![Swagger UI Request](swagger%20ui_2.png)
+![Swagger UI Request](images/swagger%20ui_2.png)
 
 *Figure 3: The complete API request showing the curl command and request URL.*
 
 ### Successful Response
-![Swagger UI Response](swagger%20ui_3.png)
+![Swagger UI Response](images/swagger%20ui_3.png)
 
 *Figure 4: The API response showing the AI-generated answer with citations.*
 
