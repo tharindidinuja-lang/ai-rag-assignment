@@ -102,26 +102,19 @@ API Testing with Swagger UI
 How the RAG System Works
 
 ### Step-by-Step Process
-┌─────────────────────────────────────────────────────────────────┐
-│ STEP 1: PDF UPLOAD │
-│ User uploads PDF → File saved to backend/data/uploads/ │
-│ Text extracted → Saved to backend/data/extracted/ │
-└─────────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────────┐
-│ STEP 2: INDEX BUILDING (REBUILD) │
-│ Documents → Split into chunks (1000 characters each) │
-│ Chunks → Embeddings (Gemini) → FAISS vector store │
-└─────────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────────┐
-│ STEP 3: QUESTION ANSWERING │
-│ User question → Embedded → FAISS similarity search │
-│ Top chunks → Context to Gemini → Generated answer │
-│ Answer + Citations → Returned to user │
-└─────────────────────────────────────────────────────────────────┘
+
+STEP 1: PDF UPLOAD 
+User uploads PDF → File saved to backend/data/uploads/ 
+Text extracted → Saved to backend/data/extracted/ 
+
+STEP 2: INDEX BUILDING (REBUILD) 
+Documents → Split into chunks (1000 characters each) 
+Chunks → Embeddings (Gemini) → FAISS vector store 
+
+STEP 3: QUESTION ANSWERING 
+User question → Embedded → FAISS similarity search 
+Top chunks → Context to Gemini → Generated answer 
+Answer + Citations → Returned to user 
 
 
 Technology Stack
