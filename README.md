@@ -55,7 +55,7 @@ This assignment implements a production-ready **Retrieval-Augmented Generation (
 Frontend Interface
 
 ### Chat Interface
-![Frontend Chat Interface](frontend.png)
+images/frontend.png
 
 *Figure 1: The main chat interface showing the upload button, chat window, and example questions.*
 
