@@ -130,44 +130,45 @@ Answer + Citations → Returned to user
 | **Document Processing** | PyPDF, python-docx | PDF and DOCX extraction |
 
 ## 📁 Project Structure
+
+```
 ai-rag-assignment/
 │
-├── backend/ # FastAPI backend
-│ ├── app/
-│ │ ├── api/routes/ # API endpoints
-│ │ │ ├── chat.py # Chat endpoint
-│ │ │ ├── ingest.py # Index rebuild
-│ │ │ └── upload.py # File upload
-│ │ ├── core/ # Configuration
-│ │ ├── models/ # Pydantic schemas
-│ │ └── services/ # Business logic
-│ │ ├── indexing.py # FAISS index building
-│ │ ├── retrieval.py # Hybrid search
-│ │ └── rag.py # RAG orchestration
-│ ├── data/
-│ │ ├── uploads/ # User uploaded files
-│ │ └── extracted/ # Extracted text cache
-│ └── requirements.txt
+├── backend/                    # FastAPI backend
+│   ├── app/
+│   │   ├── api/routes/        # API endpoints
+│   │   │   ├── chat.py        # Chat endpoint
+│   │   │   ├── ingest.py      # Index rebuild
+│   │   │   └── upload.py      # File upload
+│   │   ├── core/              # Configuration
+│   │   ├── models/            # Pydantic schemas
+│   │   └── services/          # Business logic
+│   │       ├── indexing.py    # FAISS index building
+│   │       ├── retrieval.py   # Hybrid search
+│   │       └── rag.py         # RAG orchestration
+│   ├── data/
+│   │   ├── uploads/           # User uploaded files
+│   │   └── extracted/         # Extracted text cache
+│   └── requirements.txt
 │
-├── frontend/ # Next.js frontend
-│ ├── app/
-│ │ ├── globals.css # Styling
-│ │ ├── layout.tsx # Root layout
-│ │ └── page.tsx # Main page
-│ ├── components/
-│ │ ├── chat-shell.tsx # Chat UI component
-│ │ └── upload-section.tsx # File upload component
-│ ├── lib/
-│ │ └── api.ts # API client
-│ └── package.json
+├── frontend/                   # Next.js frontend
+│   ├── app/
+│   │   ├── globals.css        # Styling
+│   │   ├── layout.tsx         # Root layout
+│   │   └── page.tsx           # Main page
+│   ├── components/
+│   │   ├── chat-shell.tsx     # Chat UI component
+│   │   └── upload-section.tsx # File upload component
+│   ├── lib/
+│   │   └── api.ts             # API client
+│   └── package.json
 │
-├── pdfs/ # Sample PDF documents
-├── images/ # Documentation images
-├── vectorstores/ # FAISS index storage
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
-
-
+├── pdfs/                      # Sample PDF documents
+├── images/                    # Documentation images
+├── vectorstores/              # FAISS index storage
+├── README.md                  # Project documentation
+└── requirements.txt           # Python dependencies
+```
 How to Run the System
 
 ### Prerequisites
