@@ -117,18 +117,19 @@ Top chunks → Context to Gemini → Generated answer
 Answer + Citations → Returned to user 
 
 
-Technology Stack
+## 🛠️ Technology Stack
 
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **Frontend** | Next.js 14, TypeScript | Chat UI, file upload interface |
+| **Backend** | FastAPI, Python 3.11 | API endpoints, RAG logic |
+| **AI Model** | Google Gemini 2.5 Flash | Answer generation |
+| **Embeddings** | Gemini Embedding-001 | Text vectorization |
+| **Vector Database** | FAISS (Facebook AI Similarity Search) | Similarity search |
+| **Hybrid Search** | BM25 + Dense Retrieval | Improved retrieval accuracy |
+| **Document Processing** | PyPDF, python-docx | PDF and DOCX extraction |
 
-**Frontend* - Next.js 14, TypeScript - Chat UI, file upload interface 
-**Backend* - FastAPI, Python 3.11  -  API endpoints, RAG logic 
-**AI Model* - Google Gemini 2.5 Flash  -  Answer generation 
-**Embeddings* - Gemini Embedding-001  -  Text vectorization 
-**Vector Database*  - FAISS (Facebook AI Similarity Search) -Similarity search 
-**Hybrid Search*  - BM25 + Dense Retrieval  -  Improved retrieval accuracy 
-**Document Processing*  - PyPDF, python-docx  - PDF and DOCX extraction 
-
-Project Structure
+##Project Structure
 
 ai-rag-assignment/
 │
