@@ -129,8 +129,7 @@ Answer + Citations → Returned to user
 | **Hybrid Search** | BM25 + Dense Retrieval | Improved retrieval accuracy |
 | **Document Processing** | PyPDF, python-docx | PDF and DOCX extraction |
 
-##Project Structure
-
+## 📁 Project Structure
 ai-rag-assignment/
 │
 ├── backend/ # FastAPI backend
